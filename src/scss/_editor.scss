@@ -1,0 +1,45 @@
+.editor{
+    display: flex;
+    // flex-grow: 1;
+    flex-direction: column;
+    width: 32%;
+    border-left: 1px solid #444857;
+    border-right: 1px solid #444857;
+    .editor__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #060606;
+        &__heading{
+            display: flex;
+            align-items: center;
+            background-color: #1d1e22;
+            color: #AAAEBC;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
+            padding: 0.3rem 0.6rem;
+            border-top: 3px solid #444857;
+            border-left: 1px solid #060606;
+        }
+        &__icons{
+            span{
+                font-size: 0.8rem;
+                color: white;
+                background-color: #1d1e22;
+                padding: 0.2rem 0.5rem;
+                border-radius: 0.2rem;
+                margin-right: 0.4rem;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.CodeMirror-scroll{
+    background-color: #1d1e22;
+    font-size: 0.9rem;
+}
+
+.CodeMirror-gutter{
+    background-color: #1d1e22;
+}

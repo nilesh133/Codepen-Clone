@@ -1,0 +1,12 @@
+.codearea{
+    height: 45vh;
+    background-color: #060606;
+    border-top: 1px solid #444857;
+    padding-bottom: 1.2rem;
+    &__container{
+        display: flex;
+        justify-content: space-evenly;
+        border-bottom: 1px solid #444857;
+        height: 45vh;
+    }
+}

@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #060606;
+    padding: 0.5rem;
+    &__logo{
+        background: url("../images/logo.jpg");
+        width: 150px;
+        height: 50px;
+        background-position: center;
+        background-size: cover;
+    }
+}
